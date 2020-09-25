@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.automationShell.windows": "",
+    "terminal.integrated.fontFamily":"Hack",
+    "terminal.integrated.fontSize":13,
+    "terminal.integrated.automationShell.linux": "",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 14
+}
