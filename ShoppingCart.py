@@ -22,4 +22,10 @@ print("\t\t{}".format(company_city))
 
 print('=' * 50)
 
-print("\t\t{}".format(p1_item, p1_price))
+print("\tProduct Name\tProduct Price")
+print("\t{}\t\t ${}".format(p1_item, p1_price))
+print("\t{}\t\t ${}".format(p2_item, p2_price))
+print("\t{}\t\t ${}".format(p3_item, p3_price))
+
+print('=' * 50)
+print("\t\t Total")
