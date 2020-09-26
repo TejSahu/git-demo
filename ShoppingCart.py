@@ -1,6 +1,6 @@
-# Split example
+"""Split example
 string = "Hello, welcome to my world"
-# print(string.split(" "))
+print(string.split(" "))"""
 
 # Shopping receipts program
 p1_item, p1_price = "Balls", 4.95
@@ -28,4 +28,4 @@ print("\t{}\t\t ${}".format(p2_item, p2_price))
 print("\t{}\t\t ${}".format(p3_item, p3_price))
 
 print('=' * 50)
-print("\t\t Total")
+print("\t\t    Total")
