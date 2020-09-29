@@ -8,7 +8,7 @@ p2_item, p2_price = "Pens", 2.50
 p3_item, p3_price = "Monitor", 450.00
 
 # create a company name and address
-company_name = "coding temple inc."
+company_name = "Coding Temple Inc."
 company_address = "283 Franklin St."
 company_city = "Boston, MA"
 
@@ -16,7 +16,7 @@ company_city = "Boston, MA"
 message = "Thank you for shopping with us today"
 
 print('*' * 50)
-print("\t\t{}".format(company_name.title()))
+print("\t\t{}".format(company_name))
 print("\t\t{}".format(company_address))
 print("\t\t{}".format(company_city))
 
@@ -28,4 +28,10 @@ print("\t{}\t\t ${}".format(p2_item, p2_price))
 print("\t{}\t\t ${}".format(p3_item, p3_price))
 
 print('=' * 50)
-print("\t\t    Total")
+total = p1_price + p2_price + p3_price
+print("\t\t   Total ${}".format(total))
+
+# Output thank you message
+print("\n\t{} \n".format(message))
+
+print('*' * 50)
