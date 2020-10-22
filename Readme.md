@@ -1,6 +1,4 @@
-# This is a demo file
-# Adding a new line
-
-## Subheading
+# Hi, this is a repo for git-demo
+# In order to learm and test git commands
 
 Learn git on YouTube
